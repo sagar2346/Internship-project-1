@@ -1,0 +1,28 @@
+# Tasks - Full-Stack Notes App Development
+
+- `[x]` Initialize Server Component
+  - `[x]` Create server directory and `package.json`
+  - `[x]` Configure dependencies (`express`, `cors`, `dotenv`, `nodemon`)
+  - `[x]` Write `.env` and `server.js` with all REST API endpoints using an in-memory JS array
+  - `[x]` Verify server endpoints run correctly
+- `[x]` Initialize Client Component
+  - `[x]` Create React + Vite frontend under `/client` using `npx`
+  - `[x]` Install frontend dependencies (`react-router-dom`, `axios`)
+  - `[x]` Verify client template runs correctly
+- `[x]` Design CSS and Global Setup
+  - `[x]` Create beautiful `index.css` with dark glassmorphic styling, HSL colors, responsive grid, custom typography, animations
+  - `[x]` Set up sidebar layout and main container in `App.jsx`
+- `[x]` Implement Pages and Routing (6 Pages)
+  - `[x]` Home page (gorgeous hero, features list, dynamic enter button)
+  - `[x]` All Notes page (grid layout, category tabs/filters, instant title search, note cards)
+  - `[x]` Create Note page (form with soft color circle selectors, category tag, content area)
+  - `[x]` Note Detail page (viewing content, modal or inline edit form, soft-delete functionality)
+  - `[x]` Trash page (grid of trashed notes, restore action, permanent delete action)
+  - `[x]` Profile page (visual dashboard displaying notes metrics, app info)
+- `[x]` Integrate Frontend with Axios Backend API
+  - `[x]` Set up API client base config
+  - `[x]` Wire all views to trigger API calls and keep frontend state synchronized
+- `[x]` Verification and Polish
+  - `[x]` Test note creation, editing, soft deletion, and permanent deletion
+  - `[x]` Validate responsive states on desktop and mobile viewports
+  - `[x]` Create walkthrough.md with visuals
